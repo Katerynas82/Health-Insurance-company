@@ -49,7 +49,7 @@ img {
   outline: none;
 }
 body {
-  color: #010310;
+  color:  rgb(10, 66, 131);
   font-family: "Roboto", sans-serif;
 }
 .section {
@@ -151,7 +151,7 @@ li a:hover {
 .hero {
   display: grid;
   background-size: cover;
-  background-image: url(./images/health\ insurance\ company\ banner\ 1200x400.png);
+  background-image: url(./images/health\ insurance\ company\ banner\ 1024x400.png);
   background-repeat: no-repeat;
   height: 300px;
   width: inherit;
@@ -251,3 +251,144 @@ li a:hover {
   gap: 150px;
   justify-content: space-between;
 }
+
+/*Login page*/
+
+.log{
+      background: linear-gradient(to right, #0077b6, #90e0ef);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 10px;
+    }
+
+.login-box {
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #0077b6;
+    }
+
+    .login-box label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-box-a {
+    margin: 50px;
+    margin-left: 35%;
+      width: 100%;
+      padding: 10px;
+            background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .login-box-a:hover {
+      background-color: #023e8a;
+    }
+
+    .login-box .extra {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-box .extra a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    .login-box .extra a:hover {
+      text-decoration: underline;
+    }
+    /*Registration*/
+      .register-box {
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 450px;
+    }
+
+    .register-box h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #0077b6;
+    }
+
+    .register-box label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+
+    .register-box input[type="text"],
+    .register-box input[type="email"],
+    .register-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .register-box-a {
+    margin-left: 40%;
+      width: 100%;
+      padding: 12px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+
+    }
+
+    .register-box-a:hover {
+      background-color: #023e8a;
+    }
+
+    .register-box .extra {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .register-box .extra a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    .register-box .extra a:hover {
+      text-decoration: underline;
+    }
