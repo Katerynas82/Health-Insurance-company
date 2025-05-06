@@ -1,0 +1,253 @@
+h1 {
+  text-align: center;
+  font-size: 90px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  padding: o;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+body {
+  color: #010310;
+  font-family: "Roboto", sans-serif;
+}
+.section {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li a {
+  display: block;
+  color: #047ffa;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: Roboto;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+li a:hover {
+  color: #04d5faac;
+}
+
+.navigation {
+  display: flex;
+  padding-right: 0;
+  justify-content: space-between;
+  height: 70px;
+}
+.header {
+  background-image: "./images/health insurance company banner 1024x400.png";
+  background-repeat: no-repeat;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #b1f5f98b;
+  padding: 4%;
+  margin-bottom: 0px;
+  gap: 10px;
+  width: 80%;
+  justify-items: center;
+  align-items: center;
+}
+.services-page {
+  background-color: #b1f5f98b;
+  color: rgb(10, 66, 131);
+
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.span {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.plan {
+  margin: 35px;
+}
+.b {
+  margin: 60px;
+}
+.img-list {
+  display: flex;
+}
+
+.img img {
+  width: 50px;
+  height: auto;
+}
+
+.services img {
+  width: 100%;
+  height: 300px;
+  padding: 15px;
+  object-fit: cover;
+}
+.services div {
+  background-color: white;
+  width: 270px;
+  border-radius: 8px;
+}
+.services p {
+  font-family: Roboto;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+/* .container {
+  width:100vw;
+  /* height:300px; */
+
+.hero {
+  display: grid;
+  background-size: cover;
+  background-image: url(./images/health\ insurance\ company\ banner\ 1200x400.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: inherit;
+  text-align: center;
+  place-items: center;
+  margin-bottom: 10px;
+}
+
+.navigation img {
+  margin-right: 20px;
+  float: left;
+  height: 65px;
+  /* Optional margin between image and list */
+}
+
+.btn-header {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  color: #f0f0f0;
+}
+
+.btn-header:hover {
+  background-color: #0056b3;
+}
+.btn-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 60px;
+}
+.header-list {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.list-item {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.box-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.vertical-box {
+  background-color: #b1f6f9ea;
+  width: 20%;
+  padding: 15px;
+  color: rgb(10, 66, 131);
+}
+.article {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.box-item {
+  height: 400px;
+  width: 250px;
+}
+
+.box-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgb(10, 66, 131);
+  margin-bottom: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* .article-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgb(10, 66, 131);
+  overflow: hidden;
+  height: 100px;
+} */
+
+.footer-list {
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.foot {
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+}
